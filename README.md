@@ -1,4 +1,4 @@
-MIT License
+IMIT License
 
 Copyright (c) 2026 [Dilusha Gihan Wijepala/ADX Model ]
 
@@ -77,3 +77,16 @@ SOFTWARE.
 
     </div>
 </section>
+<div class="mt-4 p-4 bg-black border border-yellow-500/20 font-mono text-[10px]">
+    <div id="system-log" class="text-yellow-500 opacity-80">
+        > SYSTEM_READY: Awaiting strategic input...
+    </div>
+    <div class="mt-4 flex gap-4">
+        <button onclick="toggleDuelState('white')" class="border border-white/40 px-3 py-1 hover:bg-white hover:text-black transition-all">
+            ACTIVATE_WHITE_LOGIC
+        </button>
+        <button onclick="toggleDuelState('black')" class="border border-yellow-500/40 px-3 py-1 hover:bg-yellow-500 hover:text-black transition-all">
+            ACTIVATE_BLACK_GAMBIT
+        </button>
+    </div>
+</div>
