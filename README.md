@@ -54,3 +54,26 @@ SOFTWARE.
         </div>
     </div>
 </section>
+<section class="max-w-5xl mx-auto my-16 border-x border-yellow-500/10">
+    <div class="flex flex-col md:flex-row h-[500px] border-y border-yellow-500/20">
+        
+        <div class="flex-1 bg-zinc-100 text-black p-8 relative overflow-hidden group">
+            <div class="absolute top-4 left-4 text-[10px] font-bold tracking-[0.3em]">NODE_WHITE: ORDER</div>
+            <div class="h-full flex flex-col justify-end">
+                <h3 class="text-3xl font-light leading-none">THE<br><b>QUEEN'S</b><br>LOGIC</h3>
+                <p class="mt-4 text-[10px] opacity-70 max-w-xs uppercase">Strategic calculation initiated. Compliance verified through light.</p>
+            </div>
+            <div class="absolute inset-0 bg-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+        </div>
+
+        <div class="flex-1 bg-black text-yellow-500 p-8 relative overflow-hidden group border-l border-yellow-500/20">
+            <div class="absolute top-4 right-4 text-[10px] font-bold tracking-[0.3em] text-right">NODE_BLACK: DEPTH</div>
+            <div class="h-full flex flex-col justify-end text-right">
+                <h3 class="text-3xl font-light leading-none">THE<br><b>KING'S</b><br>GAMBIT</h3>
+                <p class="mt-4 text-[10px] opacity-70 ml-auto max-w-xs uppercase">Encryption protocol active. Victory achieved through the unseen move.</p>
+            </div>
+            <div class="absolute inset-0 bg-yellow-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+        </div>
+
+    </div>
+</section>
